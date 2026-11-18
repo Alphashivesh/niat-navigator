@@ -1,3 +1,24 @@
+# NIAT Dual-Admission Navigator & Parent Concierge
+
+**Live Application:** [https://niat-navigator.vercel.app](https://niat-navigator.vercel.app/)  
+**3-Minute Loom Walkthrough:** [https://www.loom.com/share/your-video-id](https://www.loom.com/share/your-video-id)
+
+## Overview
+A bottom-of-funnel (Track B) admission management system built for **NxtWave Institute of Advanced Technologies (NIAT)** to eliminate post-counselling drop-offs. Because students must complete two separate workflows—**NIAT Upskilling Enrolment** and **Collaborating University B.Tech Admission**—this system tracks both tracks in parallel and automates multilingual parent reminders.
+
+## Key Capabilities
+* **Parallel Dual-Track Progress Engine:** Tracks NIAT enrolment steps alongside university-specific counselling and document checklists across **230+ A–Z Indian institutions** (`NIAT Partner`, `Public / Govt`, `IIT`, `NIT`, `IIIT`, `GFTI`, `Private`) with phonetic search and a custom college fallback.
+* **Tool-Calling Multilingual AI Agent (Groq):** Executes live database and rule-verification tools (`get_student_admission_state`, `validate_eligibility_and_rules`, `dispatch_parent_reminder`) and responds in Telugu, Hindi, Tamil, Kannada, or English.
+* **Automated Parent Nudges (n8n + Gmail):** Dispatches localized deadline reminders via n8n webhooks and logs delivery telemetry in Supabase.
+* **Growth Manager Ops Dashboard:** Real-time cohort funnel tracking, dual-track completion rates, and reminder audit logs.
+
+## Tech Stack
+* **Frontend & API:** Next.js (App Router, TypeScript), Tailwind CSS
+* **Database:** Supabase (PostgreSQL)
+* **AI Agent:** Groq LLM API with OpenAI-compatible Function Calling
+* **Workflow Automation:** n8n Cloud Webhook + Gmail Integration
+* **Hosting:** Vercel
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
