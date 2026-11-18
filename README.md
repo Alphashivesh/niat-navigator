@@ -1,7 +1,6 @@
 # NIAT Dual-Admission Navigator & Parent Concierge
 
 **Live Application:** [https://niat-navigator.vercel.app](https://niat-navigator.vercel.app/)  
-**3-Minute Loom Walkthrough:** [https://www.loom.com/share/your-video-id](https://www.loom.com/share/your-video-id)
 
 ## Overview
 A bottom-of-funnel (Track B) admission management system built for **NxtWave Institute of Advanced Technologies (NIAT)** to eliminate post-counselling drop-offs. Because students must complete two separate workflows—**NIAT Upskilling Enrolment** and **Collaborating University B.Tech Admission**—this system tracks both tracks in parallel and automates multilingual parent reminders.
